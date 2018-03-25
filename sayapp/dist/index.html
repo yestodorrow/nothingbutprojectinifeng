@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang="en"><head><title>互动阅读</title><meta charset="UTF-8"><meta name="screen-orientation" content="portrait"><meta name="x5-orientation" content="portrait"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><link rel="stylesheet" href="/static/style.css"><script>!(function(doc, win) {
+        var docEl = doc.documentElement;
+        fn = function() {
+            var width = docEl.getBoundingClientRect().width;       
+            var rem = width / 10 > 42?41.4:width / 10;
+            docEl.style.fontSize = rem + 'px';                                    
+        };
+     
+    win.addEventListener('resize', fn, false);
+    doc.addEventListener("DOMContentLoaded", fn, false);
+  }(document, window));</script><script src="https://s19.cnzz.com/z_stat.php?id=1266101559&web_id=1266101559"></script><link href="/static/css/app.42882cf74668235d8829d7ebc37ffa72.css" rel="stylesheet"></head><body><div class="container"><div id="app"><router-view></router-view></div></div><script type="text/javascript" src="/static/js/manifest.44483a3e417b533ae444.js"></script><script type="text/javascript" src="/static/js/vendor.d10b61e04ed4653ed1af.js"></script><script type="text/javascript" src="/static/js/app.cb1ab5085b3158a8ac84.js"></script></body><script src="http://p1.ifengimg.com/a/2016/0809/sta_collection_common_iifeng_v4.js"></script></html>

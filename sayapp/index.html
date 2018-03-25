@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>互动阅读</title>
+  <meta charset="UTF-8">
+  <meta name="screen-orientation" content="portrait">
+  <meta name="x5-orientation" content="portrait">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <link rel="stylesheet" href="/static/style.css">  
+  <script>
+        !(function(doc, win) {
+        var docEl = doc.documentElement;
+        fn = function() {
+            var width = docEl.getBoundingClientRect().width;       
+            var rem = width / 10 > 42?41.4:width / 10;
+            docEl.style.fontSize = rem + 'px';                                    
+        };
+     
+    win.addEventListener('resize', fn, false);
+    doc.addEventListener("DOMContentLoaded", fn, false);
+  }(document, window));
+    </script>    
+    <script src="https://s19.cnzz.com/z_stat.php?id=1266101559&web_id=1266101559"></script>
+  </head>
+  <body>
+      <div class="container">
+        <div id="app"><router-view></router-view></div>
+      </div>
+  </body>
+</html>
+
+<script>
+  (function(doc,win){
+    var docEl=doc.documentElement;
+    var html=doc.querySelector("html");
+    var dpr=win.devicePixelRatio||1;
+    html.style.fontSize=docEl.clientWidth/10+"px";
+    html.setAttribute('data-dpr',dpr   )
+  })()
+</script>

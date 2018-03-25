@@ -1,0 +1,19 @@
+{
+  "apps" : [{
+    // Application #1
+    "name"        : "quicksay-api",
+    "script"      : "index.js",
+    "merge_logs"  : true,
+    "cwd"         : "/data/sayapi",
+    "env": {
+      "NODE_ENV": "test"
+    },
+    "env_production" : {
+      "NODE_ENV": "production"
+    },
+    //"exec_mode"  : "cluster_mode",
+    "log_date_format": "YYYY-MM-DD HH:mm Z",
+    "error_file" : "./log/api-err.log",
+    "out_file"   : "./log/api-out.log"
+  }]
+}

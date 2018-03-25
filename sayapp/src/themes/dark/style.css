@@ -1,0 +1,139 @@
+.dark .list{
+  min-height: 100vh;
+  background: #1F242B;
+}
+.dark .list .box{
+  border-radius: 4px;
+  border: 0;
+  background: #fff;
+  box-shadow: 0px 0px 6px 0 rgba(102, 102, 102, .1)
+}
+.dark .catalog > p{
+  color: #333333;
+}
+.dark .list h2{
+  color: #fff;
+  width: 101%;
+  background: rgba(0, 0, 0, .8);
+}
+/**/
+.dark .catalog{
+  background: #31363C;
+}
+.dark .catalog ul li{
+  border-color: #444;
+}
+.dark .catalog ul li a{
+  color: #eee;
+}
+.dark .content{
+  background: #1F242B;
+}
+.dark .touch{
+  background: #333;
+}
+.dark .touch p{
+  color: #999999;
+}
+/**/
+.dark .message section{
+  border: 10px solid;
+  border-image-source: url(./border.png);
+  border-image-slice: 20 20 20 20 fill;
+  border-image-width: 10px;
+  border-image-repeat: round;  
+}
+.dark .message p{
+  color: #333333 !important;
+}
+.dark .main .message section{
+  border: 10px solid;
+  border-image-source: url(./border-main.png);
+  border-image-slice: 20 20 20 20 fill;
+  border-image-width: 10px;
+  border-image-repeat: round;  
+}
+.dark .main .message  p{
+  color: #333;
+}
+.dark .other .message {
+  background: #31373F;
+}
+.dark .other .message{
+  color: #617082;
+}
+
+/*navigator*/
+.dark .nav{
+  background: #31363C;
+}
+.dark .icon-back{
+  background: url(./back.png) no-repeat center center;
+}
+.dark  .icon-theme{
+  background: url(./theme.png) no-repeat center center;
+}
+.dark .icon-catalog{
+  background: url(./catalog.png) no-repeat center center;
+}
+.dark .icon-share{
+  background: url(./share.png) no-repeat center center;
+}
+/**/
+.dark .endding{
+  background: #31373F;
+}
+.dark  .comments{
+  background: #D1CFC2;
+  border-color: #1E242C;
+}
+.dark  .comments span{
+  color: #333;
+}
+.dark .main .comments,.dark .other .comments{
+  background: #31373F;
+  border-color: #1E242C;
+}
+.dark  .main .comments span,.dark .other .comments span{
+  color: #617082;
+}
+
+/*comment*/
+.dark .comment{
+  background: #1F242B;
+}
+.dark .comment-button {
+  border-color: #323942;  
+}
+.dark .comment-button button{
+  color: #333333;
+  background: #8EA8C6;
+}
+.dark .commentlist li {
+  border-color: #323942;
+}
+.dark .commentlist .desc h3{
+  color: #999999;
+}
+.dark .commentlist .desc time{
+  color: #596069;
+}
+.dark .commentlist .desc p{
+  color: #617082;
+}
+.dark .icon-comment{
+  background: url(./comment.png) no-repeat 0 0;
+  background-size: 100%;
+}
+.dark .comment-tip{
+  background: rgba(255, 255, 255, 0.9);
+}
+.dark .comment-tip p{
+  color: #333;
+}
+.dark .emptylist{
+  background-image: url(./empty.png);
+}
+.dark .emptylist + p{
+  color: #617082;
+}

@@ -1,0 +1,119 @@
+.halloween .list{
+  min-height: 100vh;  
+}
+.halloween .list::before{
+  content: ' ';
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(./bg.jpg) no-repeat scroll center center;
+  background-size: cover;
+}
+.halloween .list .box{
+  border: 0;
+}
+.halloween .list .box::after{
+  position: absolute;
+  right: -5px;
+  bottom: -5px;
+  z-index: 10;
+  content: " ";
+  width: 25px;
+  height: 22px;
+  background: url(./box-corner.png) no-repeat 0 0;
+  background-size: 100%;
+}
+.halloween .catalog > p{
+  color: #333333;
+}
+.halloween .list h2{
+  color: #333;
+  background: #F5A623;
+}
+/**/
+.halloween .albumlist{
+
+}
+.halloween .albumlist::before{
+  content: ' ';
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(./bg.jpg) no-repeat scroll center center;
+  background-size: cover;
+}
+/**/
+.halloween .content{
+  position: relative;
+}
+.halloween .content::before{
+  content: ' ';
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;  
+  right: 0;
+  background:#000 url(./content.jpg) no-repeat scroll center center;
+  background-size: cover;
+}
+.halloween .touch{
+  background: #321908;
+}
+.halloween .touch p{
+  color: #999999;
+}
+/**/
+.halloween .message section{
+  background: transparent;
+  border: 20px solid;
+  margin-top: -10px;
+  padding-top: 10px;
+  border-image: url(./border.png) 35 57 74 66  fill / 20px;
+  -webkit-border-image: url(./border.png) 35 57 74 66  fill / 15px;  
+}
+.halloween .main .message section{  
+  padding-top: 0;
+  margin-top: 0;  
+  border: 15px solid;
+  border-image: url(./border.png) 35 57 74 66  fill/ 20px/ 0;
+  -webkit-border-image: url(./border-main.png) 38 74 45 52 fill/ 15px;    
+}
+.halloween .message p{
+  color: #333333 !important;
+}
+.halloween .main .message  p{
+  color: #fff !important;
+}
+.halloween .other p{
+  color: #F5A623;
+}
+/**/
+.halloween .nav{
+  background: #000;
+}
+.halloween .navigator a{
+  color: #C5610F;
+}
+.halloween .icon-back{
+  background: url(./back.png) no-repeat center center;
+}
+.halloween  .icon-theme{
+  background: url(./theme.png) no-repeat center center;
+}
+.halloween .icon-catalog{
+  background: url(./catalog.png) no-repeat center center;
+}
+.halloween .icon-share{
+  background: url(./share.png) no-repeat center center;
+}
+/**/
+.halloween .endding{
+  background: #1C0C04;
+}

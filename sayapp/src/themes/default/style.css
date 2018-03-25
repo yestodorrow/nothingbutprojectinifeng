@@ -1,0 +1,136 @@
+.default .list{
+  min-height: 100vh;
+  background: #F5F8FA;
+}
+.default .list .box{
+  border: 0;
+  background: #fff;
+  box-shadow: 0px 0px 6px 0 rgba(102, 102, 102, .3)
+}
+.default .catalog > p{
+  color: #333333;
+}
+.default .list h2{
+  color: #fff;
+  background: rgba(0,0,0,.5);
+}
+/**/
+.default .catalog{
+  background: #fff;
+}
+.default .catalog ul li{
+  border-color: #eee;
+}
+.default .catalog ul li a{
+  color: #444;
+}
+.default .content{
+  background: #F3F3F3;
+}
+.default .touch{
+  background: #fff;
+}
+.default .touch p{
+  color: #999999;
+}
+/**/
+.default .message section{
+  border: 10px solid;
+  border-image-source: url(./border.png);
+  border-image-slice: 20 20 20 20 fill;
+  border-image-width: 10px;
+  border-image-repeat: round;  
+}
+.default .message p{
+  color: #333333 !important;
+}
+.default .main .message section{
+  border: 10px solid;
+  border-image-source: url(./border-main.png);
+  border-image-slice: 20 20 20 20 fill;
+  border-image-width: 10px;
+  border-image-repeat: round;  
+}
+.default .main .message  p{
+  color: #333;
+}
+.default .other .message {
+  background: #E3E3E3;
+}
+.default .other .message{
+  color: #666;
+}
+
+/*navigator*/
+.default .nav{
+  background: #fff;
+}
+.default .icon-back{
+  background: url(./back.png) no-repeat center center;
+}
+.default  .icon-theme{
+  background: url(./theme.png) no-repeat center center;
+}
+.default .icon-catalog{
+  background: url(./catalog.png) no-repeat center center;
+}
+.default .icon-share{
+  background: url(./share.png) no-repeat center center;
+}
+.default .icon-preview{
+  background: url(./preview.png) no-repeat center center;
+}
+/**/
+.default .endding{
+  background: #fefefe;
+}
+.default .comments{
+  background: #fff;
+  border-color: #F3F3F3;
+}
+.default .comments span{
+  color: #999;
+}
+
+
+/*comment*/
+.default .comment{
+  background: #F3F3F3;
+}
+.default .comment-button {
+  border-color: #fff;
+}
+.default .comment-button button{
+  color: #fff;
+  background: #70C6EC;
+}
+.default .commentlist li {
+  border-color: #fff;
+}
+.default .commentlist .desc h3{
+  color: #333333;
+}
+.default .commentlist .desc time{
+  color: #999999;
+}
+.default .commentlist .desc p{
+  color: #666666;
+}
+.default .icon-comment{
+  background: url(./comment.png) no-repeat 0 0;
+  background-size: 100%;
+}
+.default .comment-tip{
+  background: rgba(51, 51, 51, 0.9);
+}
+.default .comment-tip p{
+  color: #fff;
+}
+.default .emptylist{
+  background-image: url(./empty.png);
+}
+.default .emptylist + p{
+  color: #999;
+}
+
+
